@@ -10,6 +10,8 @@ module com.example.sam_loc_2 {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.logging;
+    requires javafx.media;
 
     opens com.example.sam_loc_2 to javafx.fxml;
     exports com.example.sam_loc_2;
